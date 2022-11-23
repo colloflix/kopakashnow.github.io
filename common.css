@@ -1,0 +1,214 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: RobotoCondensed-Regular,'sans-serif';
+  }
+  ol,ul,li{
+    list-style: none;
+  }
+  .global{
+    width: 100%;
+  }
+  .container{
+    position: relative;
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  section .container{
+    margin: 60px auto;
+  }
+  header{
+    position: relative;
+    height: 190px;
+    overflow: hidden;
+  }
+  header .bg-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  header.faq {
+    height: 414px;
+  }
+  footer{
+    background: #444444;
+  }
+  nav{
+    height: 87px;
+    line-height: 87px;
+  }
+  nav .logo{
+    float: left;
+    margin: 9px 77px 9px 0;
+  
+  }
+  nav .logo img{height: 32.8px;}
+  .nav-items{
+    float: left;
+    margin-right: 20px;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    height: 45px;
+  }
+  .nav-items:hover, .nav-items a:hover{color: #28BA64;}
+  .nav-items.active{
+    font-family: RobotoCondensed-Bold,'sans-serif';
+    border-bottom: 2px solid #28BA64;
+    font-weight: bold;
+  }
+  embed{
+    position: relative;
+    top: 7px;
+  }
+  .nav-items embed{
+    margin-right: 5px;
+  }
+  .tm-logo{
+    float: right;
+  }
+  .tm-logo .nav-items{
+    margin-right: 5px;
+  }
+  .tm-logo .nav-items:last-child{
+    margin-right: 0;
+  }
+  
+  .text-center{
+    text-align: center;
+  }
+  .img-container{
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .news-title{
+    font-family: Roboto-Medium;
+    font-size: 24px;
+    color: #2D3639;
+  }
+  .time-info{
+    font-family: Roboto-Medium;
+    font-size: 14px;
+    color: #989898;
+    text-align: center;
+    margin:20px 0;
+  }
+  article p {
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    color: #989898;
+    line-height: 24px;
+  }
+  hr{
+    margin-bottom: 20px;
+  }
+  
+  .bold{font-weight: bold;}
+  .space{display: inline-block; width: 10px;}
+  a{text-decoration: none;color: #fff;cursor: pointer;}
+  
+  
+  .fr{float: right;}
+  
+  
+  
+  /*           faq                */
+  .faq-content + .faq-content{
+    margin-top: 30px;
+  }
+  .faq-title{
+    font-family: Roboto-Medium;
+    font-size: 24px;
+    color: #28BA64;
+    margin-bottom:20px;
+  }
+  .faq-list p{
+    font-family: Roboto-Regular;
+    line-height: 56px;
+    font-size: 20px;
+    color: #2D3639;
+    position: relative;
+  }
+  .faq-list p img{
+    position: absolute;
+    top: 25%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: rotate(0deg);
+  }
+  header nav .lan{position: absolute;top: 0 ;right: 0;z-index: 5;}
+  .lan li {width: 120px;}
+  .lan li a{list-style: none;color: #fff;font-size: 14px;}
+  .lan li:last-child{display: none; line-height: 38px !important;}
+  .lan li:hover{opacity: 0.6;}
+  /*   这里小单  close-content 这个类可以增加那个上下旋转的小图标，我不做了可以不~~~   */
+  .faq-list .close-content + div{
+    display: none;
+  }
+  .faq-list .content{
+    line-height: 36px;
+    color:#989898;
+  }
+  .faq-card{
+    background: #FFFFFF;
+    border: 1px solid #babeba;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,0.16);
+    padding: 6px 30px;
+
+  }
+  .faq-info{
+    font-family: Roboto-Regular;
+    padding: 6px;
+    font-size: 16px;
+    color: #989898;
+  }
+  
+  
+  
+  /*           terms              */
+  .terms-title{
+    font-family: Roboto-Medium;
+    font-size: 24px;
+    color: #2D3639;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .terms {padding: 0 5px;}
+  .terms .bold{font-weight: bold; color: #555; opacity: 1;}
+  .terms .red{color: rgb(211, 7, 7);}
+  .terms .space{display: inline-block;width: 60px; text-align: center;}
+  .terms .underline{text-decoration: underline;color: blue;}
+  
+  h2, h3,h4{text-align: center;margin: 15px 0;}
+  
+  .gap{
+    height: 48px;
+  }
+  
+  /* privacy */
+  .privacy {padding: 0 5px;}
+  .privacy .bold{font-weight: bold;}
+  .privacy .red{color: rgb(211, 7, 7);}
+  .privacy .space{display: inline-block;width: 30px; text-align: center;}
+  .privacy .underline{text-decoration: underline;color: blue;}
+  .privacy h2, h3,h4{text-align: center;margin: 15px 0;}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

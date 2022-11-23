@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(0.000000, -0.307692)">
+            <rect id="Rectangle-24" fill="#4FBC8C" x="0" y="0" width="24" height="24" rx="1.2"></rect>
+            <g id="baseline-g_translate-24px" transform="translate(5.000000, 4.938462)" fill="#FFFFFF" fill-rule="nonzero">
+                <path d="M7.55102041,14.8697017 C3.38285714,14.8697017 0,11.5388885 0,7.43485086 C0,3.33081319 3.38285714,0 7.55102041,0 C9.58979592,0 11.2963265,0.743485086 12.6102041,1.93306122 L10.6167347,3.82151334 C10.0428571,3.28620408 9.04612245,2.66167661 7.55102041,2.66167661 C4.92326531,2.66167661 2.79387755,4.80291366 2.79387755,7.43485086 C2.79387755,10.0667881 4.92326531,12.2080251 7.55102041,12.2080251 C10.5865306,12.2080251 11.84,10.0667881 11.9608163,8.624427 L7.55102041,8.624427 L7.55102041,6.08170801 L14.6187755,6.08170801 C14.7244898,6.54266876 14.8,6.98875981 14.8,7.59841758 C14.8,11.8511523 11.9155102,14.8697017 7.55102041,14.8697017 Z" id="Path"></path>
+            </g>
+        </g>
+        <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+    </g>
+</svg>

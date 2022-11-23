@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="25px" viewBox="0 0 24 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>baseline-email-24px</title>
+    <desc>Created with Sketch.</desc>
+    <g id="baseline-email-24px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(0.000000, 0.797721)">
+            <path d="M20,3.95061728 L4,3.95061728 C2.9,3.95061728 2.01,4.83950617 2.01,5.92592593 L2,17.7777778 C2,18.8641975 2.9,19.7530864 4,19.7530864 L20,19.7530864 C21.1,19.7530864 22,18.8641975 22,17.7777778 L22,5.92592593 C22,4.83950617 21.1,3.95061728 20,3.95061728 Z M20,7.90123457 L12,12.8395062 L4,7.90123457 L4,5.92592593 L12,10.8641975 L20,5.92592593 L20,7.90123457 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+            <polygon id="Path" points="0 0 24 0 24 23.7037037 0 23.7037037"></polygon>
+        </g>
+        <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+    </g>
+</svg>

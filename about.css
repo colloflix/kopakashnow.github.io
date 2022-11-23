@@ -1,0 +1,194 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.wrap{width: 90%;max-width: 1200px;height: 100%;margin: 0 auto;}
+header,nav,.content,footer{width: 100%;}
+header{ width: 100%;height: 554px;background: url('img/about@3x.png') no-repeat center;background-size: cover;overflow: hidden;}
+nav .logo-img{ height: 50px; margin-top: 19px;float:left; }
+nav .logo-img img{ line-height: 68px; height: 35.8px;}
+nav .wrap>ul{max-width: 970px; float: left;margin-top: 9px;}
+nav .wrap>ul>li{float: left;line-height: 50px;margin-left: 35px;}
+nav .wrap>ul>li>a{font-size: 17px;color: #fff;}
+nav .wrap>ul>li>a.about{font-weight: bold;}
+nav .wrap>ul>li>a.about::after{
+    content: '';
+    display: block;
+    width: 50px;
+    margin-top: -12px;
+    margin-left: -2px;
+    height: 2px;
+    background: #28BA64 ;
+}
+.content .aboutInfo{
+    width: 90%;
+    max-width: 832px;
+    margin: 0 auto;
+    border-bottom: 1px solid #E8E8E8;
+    margin-bottom: 336px;
+}
+.content .aboutInfo .title{margin-top: 80px;margin-bottom: 16px;font-family: Roboto-Medium;font-size: 28px;color: #2D3639;}
+.content .aboutInfo .text_info{width: 100%;max-width: 832px;height: 170px;}
+.content .aboutInfo .text_info p{font-family: Roboto-Regular;font-size: 16px;color: #989898;line-height: 28px;}
+.content .aboutInfo .text_info p:nth-child(2){margin-top:30px;}
+
+footer {
+    height: 68px;
+    background: #444;
+}
+
+footer>div {
+    width: 100%;
+    max-width: 832px;
+    height: 68px;
+    margin: 0 auto;
+}
+
+footer>div a.logo {
+    float: left;
+    width: 168px;
+    height: 50px;
+    margin-top: 9px;
+    background: url('img/logo@1x.png') no-repeat;
+    background-size: contain;
+}
+
+footer>div>div.link {
+    float: left;
+}
+
+footer>div>div.link a {
+    float: left;
+    margin-top: 27px;
+    font-family: RobotoCondensed-Regular;
+    font-size: 11px;
+    color: #FFF;
+    line-height: 16px;
+    margin-left: 16px;
+}
+
+footer>div>div.link a:hover {
+    color: #2CDA74;
+}
+
+footer>div>div.link a span {
+    padding: 2px 12px;
+    background-image: url('img/baseline-email-24px.svg')
+}
+
+footer>div>ul {
+    float: right;
+}
+
+footer>div>ul>li {
+    float: left;
+    margin-left: 8px;
+    width: 24px;
+    height: 24px;
+    margin-top: 22px;
+}
+
+footer>div>ul>li a {
+    float: left;
+    width: 24px;
+    height: 24px;
+}
+
+a.twitter_link{background-image: url('img/1.svg')}
+a.facebook_link{background-image: url('img/2.svg')}
+a.google_link{background-image: url('img/3.svg')}
+.d_nav li:not(4){opacity: 0.6;}
+.d_nav {position: relative;}
+.d_nav .fr{position: absolute;top: 0 ;right: 0;z-index: 5; }
+.lan li {width: 120px;}
+.lan li a{list-style: none;color: #fff;font-size: 14px;}
+.lan li:last-child{display: none; line-height: 38px !important;}
+.lan li:hover{opacity: 0.6;}
+
+/* 移动端自适应 */
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 243px;
+    }  
+    .content .aboutInfo .title {
+        margin-top: 25px;
+    }
+    .content .aboutInfo{
+        margin-bottom: 0;
+    }
+    .content .aboutInfo .text_info {
+        height: auto;
+    } 
+    footer {
+        height: 130px;
+        position: fixed;
+        bottom: 0;
+    }
+    footer>div{
+        height: 50px;
+    }
+    footer>div a.logo {
+        width: 70px;
+    }
+    footer>div a.logo {
+        height: 35px;
+        background-position: center;
+        width: 100%;
+    }
+    footer>div>div.link a{margin-top: 5px;}
+    .content3>.fix-box>div.text>p.textInfo{
+        margin-left: 26px;
+    }
+    footer>div>ul{
+        float: none;
+        width: 30%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    footer>div>ul>li{margin-top: 6px;}
+    .content3 .play_btn2{
+        height: 40px;
+    }
+  
+}
